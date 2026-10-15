@@ -1,0 +1,57 @@
+{
+ "format": "avsim-studio/1",
+ "params": {
+  "cutT0": 5.0,
+  "cutDur": 2.4,
+  "cutV": 15.0,
+  "pedT0": 9.6,
+  "pedV": 1.45,
+  "busGo": 17.5,
+  "cutDs": -4.0,
+  "tgT": 0.9,
+  "mu": 0.8,
+  "cutGap": null,
+  "cutBrake": 0.0,
+  "pedGap": null,
+  "pedLook": 0,
+  "civil": false
+ },
+ "policy": {
+  "v0": 12.5,
+  "T": 1.6,
+  "a": 1.4,
+  "b": 2.0,
+  "s0": 2.5,
+  "cautionV": 7.5,
+  "cautionRange": 55.0,
+  "pedBuffer": 2.5,
+  "cutinLat": 2.15
+ },
+ "hazards": [
+  {
+   "type": "ped",
+   "x": 235.0,
+   "side": "S",
+   "v": 1.6,
+   "t0": 0.0,
+   "trig": 28.0
+  }
+ ],
+ "space": {
+  "h0_x": [
+   220.0,
+   255.0
+  ],
+  "h0_v": [
+   1.2,
+   2.0
+  ],
+  "h0_trig": [
+   20.0,
+   36.0
+  ]
+ },
+ "exposure": 0.04,
+ "why": "Người đi bộ băng ngang đường bất ngờ ngoài giao lộ (jaywalking): Theo thống kê an toàn giao thông đường bộ đô thị (NHTSA/WHO), jaywalking ngoài vạch kẻ chiếm khoảng 25-30% các vụ tai nạn người đi bộ trong đô thị; trung bình xuất hiện khoảng 0.04 lần mỗi chuyến đi 15-20 km (exposure = 0.04). Vận tốc đi bộ dao động 1.2 - 2.0 m/s (h0_v), cự ly kích hoạt trig từ 20m đến 36m (h0_trig) tại đoạn x từ 220m đến 255m (h0_x) nơi xe ta duy trì vận tốc tối đa 12.5 m/s do không có biển báo giảm tốc trước vạch kẻ."
+}
+
